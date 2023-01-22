@@ -1,0 +1,74 @@
+@media (min-width: 1600px){
+    /*css for extra large device */
+    
+}
+@media (min-width: 768px) and (max-width: 959px){
+    /*css for tab and larg screen smart device */
+    
+}
+@media (max-width: 767px){
+    /* CSS for smartphone */
+    .logo{
+        position: absolute;
+    }
+    .social-icon{
+        text-align: center;
+    }
+    .banner .col-md-5{
+        height: auto;
+    }
+    .banner h1{
+        font-size: 36px;
+        padding-top: 0px;
+    }
+    
+    .fun-download a{
+        margin: 20px 10px;
+        padding: 20px 30px;
+    }
+    .down-banner > span {
+        left: 50%;
+        margin-left: -25px;
+        bottom: -265px;
+    }
+    .cloudy-bg, .sunny-bg, .rainy-bg{
+        display: none;
+    }
+    /*perfect area mobile css */
+    .useability, .parallax, .perfect-area .color{
+        text-align: center;
+    }
+    .useability p, .parallax p, .perfect-area .color p{
+        text-align: left;
+    }
+    .useability img, .parallax img, .perfect-area .color img{
+        padding-bottom: 10px;
+    }
+    /* simple widget area */
+    .simple-area .section-title{
+        margin: 0px 0px;
+    }
+    /* slider area */
+    .slider-area .owl-carousel{
+        padding: 10px 15px;
+    }
+    /* screen area */
+    .screenshots .section-title{
+        margin: 0px;
+    }
+    .footer-m-r{
+        
+    }
+    .footer-m-l{
+        right: 66.66%;
+    }
+    .footer-m-t{
+        right: 38%;
+    }
+    
+    
+}
+@media (min-width: 480px) and (max-width:767px){
+    /*css fixed for smart device */
+    
+}
